@@ -1,0 +1,147 @@
+@import url('/css/color.css');
+.design-container {
+    width: 100%;
+}
+
+.design-title {
+    text-align: center;
+    z-index: 50;
+}
+
+.design-title h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.design-title h2 {
+    font-size: .5em;
+    color: #fff;
+}
+
+.design-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px 10px;
+    margin: auto;
+}
+
+.design-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.design-column img {
+    margin-top: 4px;
+    vertical-align: auto;
+    width: 100%;
+}
+
+/*---------------------------------------
+     Quotes section
+  -----------------------------------------*/
+
+#experience, #enterprise, #contact {
+    position: relative;
+}
+
+#quotes {
+    background: url('/assets/img/desktop.png') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+
+#quotes-unibo {
+    background: url('/assets/img/unibo-series.png') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#quotes .overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+#quotes p {
+    padding-top: 32px;
+}
+
+#experience {
+    background: #E9724C;
+}
+
+/*---------------------------------------
+     Unibo
+-----------------------------------------*/
+
+.gradu-container {
+    background: #E3AE57;
+    width: 100%;
+    height:calc(100% - 80px);
+    padding: 10px 40px;
+}
+
+.gradu-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gradu-title{
+    text-align: center;
+    width:40%;
+}
+
+.gradu-title h1{
+    font-size: 3em;
+    padding: 20px;
+}
+
+.gradu-unibo{
+    background-image: url('/assets/img/self_presentation.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    height: 500px;
+    width: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    .design-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .gradu-title{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .design-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .gradu-title{
+        width:100%;
+    }
+}
