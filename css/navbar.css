@@ -84,4 +84,7 @@ nav a{
         padding: 1em .8em;
         margin:auto;
     }
+    .nav-bar {
+        height:3em;
+    }
 }
