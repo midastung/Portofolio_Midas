@@ -131,6 +131,7 @@
     background-position-x: center;
     height: 500px;
     width: 500px;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 800px) {
