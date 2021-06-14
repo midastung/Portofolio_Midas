@@ -153,7 +153,7 @@ body{
     height:100%;
     display:flex;
     justify-items: center;
-    align-items: center;
+    align-items:flex-start;
     padding:180px 0px 100px;
 }
 
@@ -163,9 +163,25 @@ body{
     color: var(--sec-color);
 }
 
-.about-wrap .about-item{
-    padding: 10px 50px;
+.about-item{
+    padding: 10px 45px;
+    width:100%;
     text-align: center;
+}
+
+.about-item p{
+    text-align: left;
+    font-weight: 300;
+}
+.about-content h3{
+    color:var(--text-color)
+}
+.about-content pre{
+    font-weight: 300;
+}
+.about-content{
+    text-align: left;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 780px){
