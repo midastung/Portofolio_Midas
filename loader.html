@@ -5,206 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- custom css  -->
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/profile.css">
-    <link rel="stylesheet" href="./css/design.css">
     <link rel="stylesheet" href="./css/loader.css">
-    <!-- aos.js  -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- google-icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <!-- JQuery  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <title>Midas's Portfolio</title>
 </head>
 
 <body>
     <div class="loading">
-    </div>
-    <!-- 導覽列 -->
-    <nav>
-        <div class="nav-bar">
-            <div class="nav-content">
-                <ul>
-                    <li id="h_link">
-                        <a href="#about">
-                            <span class="material-icons">face</span>
-                            <p>個人資料</p>
-                        </a>
-                    </li>
-                    <li id="h_link">
-                        <a href="/project.html">
-                            <span class="material-icons">work_outline</span>
-                            <p>網頁作品</p>
-                        </a>
-                    </li>
-                    <li id="h_link">
-                        <a href="#quotes">
-                            <span class="material-icons">brush</span>
-                            <p>設計作品</p>
-                        </a>
-                    </li>
-                    <li id="h_link">
-                        <a href="mailto:midastung@gmail.com">
-                            <span class="material-icons">contact_mail</span>
-                            <p>寄信給我</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- 個人介紹 -->
-    <div class="profile" id="about">
-        <div class="profile-container">
-            <div class="profile-title">
-                <h2 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">Front-End Junior Engineer</h2>
-                <h1 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
-                    Midas<br>Tung
-                </h1>
-                <div class="social-media" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                    <a href="https://github.com/midastung" target="_blank"><i class=" fab fa-github"></i></a>
-                    <a href="https://www.facebook.com/midas.dong/" target="_blank"><i class=" fab
-                            fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/midas_tung/" target="_blank"><i class=" fab
-                            fa-instagram"></i></a>
-                    <a href="https://www.cakeresume.com/midas" target="_blank"><i class="far fa-address-card"
-                            alt="履歷網站"></i></a>
-                </div>
-            </div>
-            <div class="profile-card" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
-                <div class="profile-pic">
-                    <img src="/assets/img/profile_pic.jpeg" alt="">
-                </div>
-            </div>
-            <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="about">
-                <div class="about-text" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                    <h1>很高興見到你，Block Studio！</h1>
-                    <p>
-                        我是 <b>董建霖</b>，即將畢業於中原大學資管系，
-                        在2021年初遇見「版塊設計」，這是使我下定決心成為一名前端工程師的契機，也以進入「版塊設計」為目標正在努力學習著...。
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="about-container">
-            <div class="about-wrap">
-                <div class="about-item" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-                    <h1>自我介紹</h1>
-                    <p>&emsp;您好，我是董建霖，畢業於中原大學資管系，<b>撰寫前端有2年的經驗</b>，熟悉HTML,CSS,JS，曾在大學期間獲得系上前端設計的<b>第一名</b>。因本身有繪畫的基礎，曾被委託幫系上<b>設計系服和系外套</b>，在過去的<b>實習</b>和<b>畢業專題</b>裡更是一展長才。<br><br>&emsp;相較於個人作業，我認為團隊合作更適合我的個性，因為<b>擅長與人溝通</b>是我優點，也重視自已在人際關係上的相處，因此求學過程中的分組大多都是<b>擔任組長的角色</b>。對於未來的期許，希望能夠將資管的背景和繪畫的天賦在工作上雙管齊下、一同發揮作用，以這樣的基礎繼續積極的發展下去。
-                    </p>
-                </div>
-                <div class="about-item" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
-                    <h1>未來目標</h1>
-                    <div class="about-content">
-                        <h3>短期：</h3>
-                        <pre>       1. 學習Vue.js框架，並Demo出作品</pre>
-                        <pre>       2. 選擇一個特效套件(如. three.js)
-            進行學習並Demo出作品</pre>
-                    </div>
-                    <div class="about-content">
-                        <h3>中期：</h3>
-                        <pre>       1. 持續精進前端開發能力</pre>
-                        <pre>       2. 加入版塊Block Studio</pre>
-                    </div>
-                    <div class="about-content">
-                        <h3>長期：</h3>
-                        <pre>       1. 成為一名資深前端工程師</pre>
-                        <pre>       2. 打造一個有著酷炫特效的個人網站</pre>
-                    </div>
-                </div>
-                <div class="about-item" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
-                    <h1>程式技能</h1>
-                    <div class="about-content">
-                        <h3>設計：</h3>
-                        <pre>       1. <b>PS</b>  去背、繪畫、設計...</pre>
-                        <pre>       2. <b>AI</b>  繪畫、設計</pre>
-                        <pre>       3. <b>CSP</b>  繪畫</pre>
-                    </div>
-                    <div class="about-content">
-                        <h3>程式：</h3>
-                        <pre>       1. 具有基本切版能力(HTML5, CSS)</pre>
-                        <pre>       2. 熟悉JS語法</pre>
-                        <pre>       3. 具有串接API經驗</pre>
-                        <pre>       4. 使用過Git版本控制</pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section id="quotes" class="parallax-section design-title" style="background-position: 50% 130px;">
-            <div class="overlay"></div>
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                設計
-            </h1>
-            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-                <h3>以下是我參與專案所畫的設計圖</h3>
-            </div>
-        </section>
-        <!-- Flex 設計圖集-->
-        <section id="experience" class="parallax-section">
-            <div class="design-container">
-                <div class="design-row">
-                    <div class="design-column" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
-                        <img src="/assets/img/CYIM_shirt.png" alt="" style="width:100%">
-                        <img src="/assets/img/buhang.png" alt="" style="width:100%">
-                    </div>
-                    <div class="design-column" data-aos="zoom-in" data-aos-delay="550" data-aos-duration="1000">
-                        <img src="/assets/img/buhang_p2.png" alt="" style="width:100%">
-                        <img src="/assets/img/CYIM_jacket.png" alt="" style="width:100%">
-                    </div>
-                    <div class="design-column" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
-                        <img src="/assets/img/cart.png" alt="" style="width:100%">
-                        <img src="/assets/img/confirm.png" alt="" style="width:100%">
-                        <img src="/assets/img/data-confirm.png" alt="" style="width:100%">
-                        <img src="/assets/img/desert.png" alt="" style=" width:100%">
-                        <img src="/assets/img/desktop.png" alt="" style=" width:100%; height:29%;">
-                    </div>
-                    <div class="design-column" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="1000">
-                        <img src="/assets/img/pigloginposter1.png" alt="" style="width:49%">
-                        <img src="/assets/img/pigloginposter2.png" alt="" style="width:49%">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="quotes-unibo" class="parallax-section design-title" style="background-position: 50% 200px;">
-            <div class="overlay"></div>
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                畢業專題
-            </h1>
-            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-                <h3>利用Live2D技術打造一名虛擬角色接待員</h3>
-            </div>
-        </section>
-        <div class="gradu-container">
-            <div class="gradu-project">
-                <div class="gradu-title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
-                    <h1>Unibo</h1>
-                    <p>假設能夠放置一個類似語意辨識聊天機器人能夠接待初來乍到的貴賓或是對於有校務疑問的同學，以流暢的對答為基礎，讓使用者在感受到人與機器之間有趣的互動而感到親切之餘，還可以解惑他們的問題，想必對於學校的形象會是一個很加分的公關大使，而且節省人力成本來擔任一個櫃檯人員。
-                    </p>
-                </div>
-                <div class="gradu-unibo" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"></div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="/assets/js/loader.js" defer="defer"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- SVG Start  -->
-    <div id="loading">
         <svg width="569" height="608" viewBox="0 0 569 608" fill="none" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="coat-logo-sm">
@@ -348,10 +154,17 @@
                     xlink:href="data:image/png;base64,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" />
             </defs>
         </svg>
+
     </div>
-    <!-- SVG End  -->
 
-
+    <script>
+        document.onreadystatechange = function () {
+            console.log(document.readyState);
+            if (document.readyState == "complete") {
+                $(".loading").fadeOut();
+            }
+        }
+    </script>
 </body>
 
 </html>

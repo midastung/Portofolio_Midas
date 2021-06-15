@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    background: #457B9D;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+#main {
+    animation: main 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#right {
+    animation: right-anima 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#left {
+    animation: left-anima 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#flag-2 {
+    animation: flag 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#pointer {
+    animation: pointer-anima 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#thunderL {
+    animation: thunderL 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#thunderR {
+    animation: thunderR 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#MIDAS {
+    animation: title 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#portfolio {
+    animation: portfolio 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#right-1, #right-2 {
+    animation: right-square 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#left-1, #left-2 {
+    animation: left-square 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#right-area-1 {
+    animation: fadeOutRight-1 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: .02s;
+}
+
+#right-area-2 {
+    animation: fadeOutRight-2 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: .01s;
+}
+
+#right-area-3 {
+    animation: fadeOutRight-3 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#left-area-1 {
+    animation: fadeOutLeft-1 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: .02s;
+}
+
+#left-area-2 {
+    animation: fadeOutLeft-2 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: .01s;
+}
+
+#left-area-3 {
+    animation: fadeOutLeft-3 1.2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes main {
+    0% {
+        transform: scale(.9);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(.9);
+    }
+}
+
+@keyframes right-anima {
+    0% {
+        transform: translateX(0em);
+    }
+    50% {
+        transform: translateX(1em);
+    }
+    100% {
+        transform: translateX(0em)
+    }
+}
+
+@keyframes left-anima {
+    0% {
+        transform: translateX(0em);
+    }
+    50% {
+        transform: translateX(-1em);
+    }
+    100% {
+        transform: translateX(0em);
+    }
+}
+
+@keyframes fadeOutRight-1 {
+    0% {
+        opacity: 1;
+    }
+    56% {
+        transform: translate3d(1.3em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOutRight-2 {
+    0% {
+        opacity: 1;
+    }
+    55% {
+        transform: translate3d(1em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOutRight-3 {
+    0% {
+        opacity: 1;
+    }
+    54% {
+        transform: translate3d(.5em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOutLeft-1 {
+    0% {
+        opacity: 1;
+    }
+    56% {
+        transform: translate3d(-1.3em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOutLeft-2 {
+    0% {
+        opacity: 1;
+    }
+    55% {
+        transform: translate3d(-1em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOutLeft-3 {
+    0% {
+        opacity: 1;
+    }
+    54% {
+        transform: translate3d(-.5em, 0em, 0em);
+        opacity: 0;
+    }
+}
+
+@keyframes flag {
+    0% {
+        transform: translateY(0em);
+    }
+    50% {
+        transform: translateY(1.15em);
+    }
+    100% {
+        transform: translateY(0em);
+    }
+}
+
+@keyframes pointer-anima {
+    0% {
+        transform: scale(1, 1) translateY(0em);
+    }
+    50% {
+        transform: scale(1, 1.3) translateY(1.5em);
+    }
+    100% {
+        transform: scale(1, 1) translateY(0em);
+    }
+}
+
+@keyframes thunderL {
+    0% {
+        transform: skew(-10deg, -5deg) translate(-.1em, 0em);
+    }
+    50% {
+        transform: skew(5deg, 10deg) translate(.5em, 1em);
+    }
+    100% {
+        transform: skew(-10deg, -5deg) translate(-.1em, 0em);
+    }
+}
+
+@keyframes thunderR {
+    0% {
+        transform: skew(10deg, 5deg) translate(.1em, 0em);
+    }
+    50% {
+        transform: skew(-5deg, -10deg) translate(-.5em, 1em);
+    }
+    100% {
+        transform: skew(10deg, 5deg) translate(.1em, 0em);
+    }
+}
+
+@keyframes title {
+    0% {
+        transform: scale(1.05, .9) translateY(0em);
+    }
+    50% {
+        transform: scale(1.1, 1.05) translateY(.8em);
+    }
+    100% {
+        transform: scale(1.05, .9) translateY(0em);
+    }
+}
+
+@keyframes portfolio {
+    0% {
+        transform: scale(1, 1.2) translateY(-.2em);
+    }
+    50% {
+        transform: scale(1.15, .8) translateY(.65em);
+    }
+    100% {
+        transform: scale(1, 1.2) translateY(-.2em);
+    }
+}
+
+@keyframes right-square {
+    0% {
+        transform: scale(1, 1.15) translate(0em, -.2em);
+    }
+    50% {
+        transform: scale(1.1, .5) translate(.6em, .98em);
+    }
+    100% {
+        transform: scale(1, 1.15) translate(0em, -.2em);
+    }
+}
+
+@keyframes left-square {
+    0% {
+        transform: scale(1, 1.15) translate(-0em, -.2em);
+    }
+    50% {
+        transform: scale(1.1, .5) translate(-.6em, .98em);
+    }
+    100% {
+        transform: scale(1, 1.15) translate(-0em, -.2em);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    svg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    svg {
+        width: 70%;
+    }
+}

@@ -1,7 +1,7 @@
 @import url('/css/color.css');
 
 body{
-    background: var(--sec-color);
+    background: var(--sec-color) !important;
 }
 
 .profile{
