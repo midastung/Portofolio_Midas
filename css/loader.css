@@ -313,15 +313,3 @@ svg {
         transform: scale(1, 1.15) translate(-0em, -.2em);
     }
 }
-
-@media screen and (max-width: 780px) {
-    svg {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    svg {
-        width: 70%;
-    }
-}
