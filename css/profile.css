@@ -7,11 +7,9 @@ body{
 .profile{
     position: absolute;
     top:0px;
-    width:100%;
     height: 100%;
     padding-top: 50px;
     margin: auto;
-    overflow-x:hidden;
     background-color: var(--sec-color);
 } 
 
@@ -176,8 +174,9 @@ body{
 .about-content h3{
     color:var(--text-color)
 }
-.about-content pre{
+.about-content ul{
     font-weight: 300;
+    padding-left:32px
 }
 .about-content{
     text-align: left;

@@ -1,90 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
 @import url('/css/color.css');
-
-*{
+* {
     font-family: 'Noto Sans TC', sans-serif;
-    margin:0;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-nav {
-  display: flex !important;
-  justify-content: center !important;
+nav{
+    
 }
 
-nav a{
+nav a {
     color: var(--text-color);
 }
 
 .nav-bar {
-    position:fixed;
-    display:flex;
+    position: fixed;
+    margin:0 auto;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     bottom: 0;
-    width:75%;
-    max-width:100%;
-    height:5em;
+    left:25%;
+    width: 50%;
+    height: 5em;
     border-bottom: none;
     border-radius: 40px 40px 0% 0%;
     box-shadow: 0px 8px 15px 2px rgb(83, 82, 82);
     background-color: var(--main-color);
-    color:var(--text-color);
+    color: var(--text-color);
     z-index: 102;
 }
 
-.nav-content{
+.nav-content {
     width: 80%;
     height: 5em;
     padding: .3em;
 }
 
-.nav-content ul{
-    display:flex;
-    margin:auto;
+.nav-content ul {
+    display: flex;
+    margin: auto;
 }
 
-.nav-content li{
+.nav-content li {
     display: flex;
     flex-direction: column;
-    padding:.5em;
+    padding: .5em;
     text-align: center;
     margin: auto;
-    font-size:1.2em;
+    font-size: 1.2em;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.nav-content li:hover{
-    transition:all 0.5s;
+.nav-content li:hover {
+    transition: all 0.5s;
     background-color: var(--sec-color);
 }
 
-@media screen and (max-width: 780px){
-    .nav-content li p{
-        display:none;
+@media screen and (max-width: 780px) {
+    .nav-content li p {
+        display: none;
     }
-    .nav-content li{
+    .nav-content li {
         padding: 1em 2em;
-        margin:auto;
+        margin: auto;
     }
     .nav-content {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
 }
 
-@media screen and (max-width: 550px){
-    .nav-content li{
+@media screen and (max-width: 550px) {
+    .nav-content li {
         padding: 1em .8em;
-        margin:auto;
     }
     .nav-bar {
-        height:3em;
+        height: 4em;
     }
 }
