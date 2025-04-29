@@ -49,13 +49,13 @@ body{
     border-radius: 10px;
 }
 .profile-card img{
-    width:300px;
-    transform:scale(1,1);
+    width:500px;
+    transform: translateX(-85px);
     transition: all 1s ease-out;
 }
 
 .profile-card img:hover{
-    transform:scale(1.2,1.2);
+    transform:scale(1.5,1.5 );
 }
 
 .social-media{
