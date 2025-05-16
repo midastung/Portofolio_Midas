@@ -49,13 +49,13 @@ body{
     border-radius: 10px;
 }
 .profile-card img{
-    width:500px;
-    transform: translateX(-85px);
+    width:300px;
+    transform:scale(1,1);
     transition: all 1s ease-out;
 }
 
 .profile-card img:hover{
-    transform:scale(1.5,1.5 );
+    transform:scale(1.2,1.2s);
 }
 
 .social-media{
@@ -119,7 +119,6 @@ body{
 .about{
     position: relative;
     width:100%;
-    height:220px;
     margin: auto;
     padding: 60px 50px 20px;
     text-align: center;
